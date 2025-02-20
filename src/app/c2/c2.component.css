@@ -1,0 +1,24 @@
+.mibtn{
+    
+    color: blue;
+    border: bold;
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 32px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+.mibtn:hover {
+    background-color: yellow;
+}
+.btnAlign{
+
+    display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  /*height: 100vh; /* Full height of the viewport */
+}
